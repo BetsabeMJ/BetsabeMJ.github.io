@@ -3,3 +3,110 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  background-color: beige;
+}
+/* ESTILOS GENERALES */
+h1,
+h2,
+h3,
+h4,
+span {
+  font-family: "Poppins", sans-serif;
+}
+h2 {
+  font-size: 1.8rem;
+  font-weight: 800;
+}
+span,
+figcaption {
+  font-size: 1rem;
+  font-weight: 600;
+}
+.list {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+/* *********************************************************************************** */
+/*  BARRA DE NAVEGACIÓN NAV */
+.nav {
+  color: #35356e;
+  background-color: white;
+  width: 100%;
+  height: 5vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: fixed;
+  box-shadow: 0px 4px 12px 0px rgba(53, 53, 110, 0.73);
+  z-index: 1;
+}
+.nav__container--list {
+  display: flex;
+  padding-right: 100px;
+  gap: 60px;
+  font-family: "Montserrat", sans-serif;
+  color: #35356e;
+  font-size: 1.2rem;
+}
+.nav__contact--button {
+  background: #35356e;
+  color: #cc9ea4;
+  font-weight: 500;
+  border-radius: 50px;
+  padding: 10px 20px;
+}
+.list:hover .nav__contact--button {
+  background-color: #67254e;
+}
+.list:hover .nav__home,
+.list:hover .nav__skills,
+.list:hover .nav__projects {
+  color: #cc9ea4;
+}
+/* *********************************************************************************** */
+/* SECTION 1 (HOME) */
+#home {
+  background-color: #fff9fa;
+  display: flex;
+  /* flex-direction: column; */
+  gap: 10px;
+  text-align: center;
+  padding: 100px 50px 12px 50px;
+}
+.home__greeting {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #67254e;
+  margin-top: 30px;
+  padding-block: 20px;
+}
+h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  padding-block: 20px;
+  color: #35356e;
+}
+.home_img {
+  width: 90%;
+  padding-top: 40px;
+  position: relative;
+  top: 20px;
+}
+.home_text {
+  padding-block: 20px;
+  color: #35356e;
+}
+.home_button {
+  background-color: #35356e;
+  color: #cc9ea4;
+  border: 1px black solid;
+  border-radius: 50px;
+  padding: 15px 30px;
+  font-weight: bold;
+  line-height: 5rem;
+}

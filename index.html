@@ -6,5 +6,140 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Betsabe Martínez Currículum Vitae</title>
   </head>
-  <body></body>
+  <body>
+    <!-- *********************************************************************************** -->
+    <!-- BARRA DE NAVEGACIÓN NAV -->
+    <header>
+      <nav class="nav">
+        <ul class="nav__container--list">
+          <li class="list">
+            <a class="nav__home" href="#home">HOLA</a>
+          </li>
+          <li class="list">
+            <a class="nav__skills" href="#data">DATOS PERSONALES</a>
+          </li>
+          <li class="list">
+            <a class="nav__projects" href="#skills">FORMACIÓN</a>
+          </li>
+          <li class="list">
+            <a class="nav__contact--button" href="#work">EMPLEO</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- *********************************************************************************** -->
+      <!-- SECTION 1 (HOME) -->
+      <section id="home">
+        <div class="greeting__container">
+          <span class="home__greeting">¡Hola! Soy</span>
+          <h1>Betsabe Martínez</h1>
+          <p class="home_text">
+            Soy una persona analítica, enfocada en resultados y con gran
+            capacidad de aprendizaje. Tengo experiencia en redacción de diversos
+            tipos de documentos (artículos, guiones, literatura, informes,
+            resúmenes) y atención al cliente, así como en el área de community
+            manager.
+          </p>
+        </div>
+        <div class="home__image--container">
+          <figure>
+            <img
+              class="home_img"
+              src="./assets/imágenes/programmer2.svg"
+              alt="Ilustración de web developer"
+            />
+          </figure>
+        </div>
+      </section>
+    </main>
+
+    <!-- *********************************************************************************** -->
+    <!-- SECTION 2 (DATA) -->
+    <section id="data">
+      <div class="skills__container--first">
+        <h2 class="skills__tittle">Datos Personales</h2>
+      </div>
+      <!-- caja que tiene las cajitas de html, css, etc -->
+      <div class="container__skills">
+        <div class="container__skills--cards">
+          <ul>
+            <li>Nombre: Karen Martínez</li>
+            <li>Lugar de nacimiento: Guadalajara, México</li>
+            <li>Fecha de nacimiento: 17 de junio 1989</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- *********************************************************************************** -->
+    <!-- SECTION 3 (FORMACIÓN) -->
+    <section id="skills">
+      <div class="projects__container"></div>
+      <h2 class="projects__tittle">Mis proyectos</h2>
+      <p class="projects__text">
+        Te invito a conocer algunos de los proyectos en los que he participado y
+        otros más que yo misma he creado.
+      </p>
+      <!-- CAJA QUE TIENE LAS CAJITAS DE PROYECTOS -->
+      <div class="projects__container--cards">
+        <!-- card portfolio -->
+        <div>
+          <a class="project__card" tabindex="8" href="#home" target="_blank">
+            <figure class="cards">
+              <img
+                class="cards__img"
+                src="./imágenes/programmer2.svg"
+                alt="ilustración de mujer trabajando con dispositivos móviles"
+              />
+              <figcaption>Portafolio</figcaption>
+            </figure>
+          </a>
+        </div>
+        <!-- card generador de memes -->
+        <div>
+          <a class="project__card" tabindex="9" href="#home" target="_blank">
+            <figure class="cards">
+              <img
+                class="cards__img"
+                src="./imágenes/generador de memes.svg"
+                alt="ilustración de mujer sentada sobre una foto con paisaje de montañas"
+              />
+              <figcaption>Generador de memes</figcaption>
+            </figure>
+          </a>
+        </div>
+        <!-- card match 3 -->
+        <div>
+          <a class="project__card" tabindex="10" href="#home" target="_blank">
+            <figure class="cards">
+              <img
+                class="cards__img"
+                src="./imágenes/match 3.svg"
+                alt="ilustración de tres personas tomadas de la mano"
+              />
+              <figcaption>Match 3</figcaption>
+            </figure>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- *********************************************************************************** -->
+    <!-- SECTION 4 EMPLEO-->
+    <section id="work" class="quote">
+      <h2 class="formacion-tittle">Formación profesional</h2>
+      <p class="quote__text">
+        Licenciada en Ciencias de la Comunicación, me he desempeñado la mayor
+        parte del tiempo laboral en la comunicación digital, atención al cliente
+        vía redes sociales y como community manager.
+      </p>
+    </section>
+
+    <footer>
+      <a href="./portfolio.html">Ir a portfolio</a>
+      <p>Todos los derechos reservados. Betsabe Martínez. 2024.</p>
+    </footer>
+  </body>
 </html>
