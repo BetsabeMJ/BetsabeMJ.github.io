@@ -3,6 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Betsabe Martínez Currículum Vitae</title>
   </head>
@@ -57,71 +63,46 @@
 
     <!-- *********************************************************************************** -->
     <!-- SECTION 2 (DATA) -->
-    <section id="data">
-      <div class="skills__container--first">
-        <h2 class="skills__tittle">Datos Personales</h2>
+    <section id="data" class="data-section">
+      <div class="data__container--first">
+        <h2 class="data__tittle">Datos Personales</h2>
       </div>
-      <!-- caja que tiene las cajitas de html, css, etc -->
-      <div class="container__skills">
-        <div class="container__skills--cards">
-          <ul>
-            <li>Nombre: Karen Martínez</li>
-            <li>Lugar de nacimiento: Guadalajara, México</li>
-            <li>Fecha de nacimiento: 17 de junio 1989</li>
-          </ul>
-        </div>
+      <div class="container__data--cards">
+        <ul>
+          <li>Nombre: Karen Martínez</li>
+          <li>Lugar de nacimiento: Guadalajara, México</li>
+          <li>Fecha de nacimiento: 17 de junio 1989</li>
+        </ul>
       </div>
     </section>
 
     <!-- *********************************************************************************** -->
-    <!-- SECTION 3 (FORMACIÓN) -->
-    <section id="skills">
-      <div class="projects__container"></div>
-      <h2 class="projects__tittle">Mis proyectos</h2>
-      <p class="projects__text">
-        Te invito a conocer algunos de los proyectos en los que he participado y
-        otros más que yo misma he creado.
-      </p>
-      <!-- CAJA QUE TIENE LAS CAJITAS DE PROYECTOS -->
-      <div class="projects__container--cards">
-        <!-- card portfolio -->
+    <!-- SECTION 3 (SKILLS) -->
+    <section id="skills" class="skills-section">
+      <h2 class="skills__tittle">Formación</h2>
+      <p class="skills__text">Licenciada en Ciencias de la Comunicación.</p>
+      <!-- CAJA QUE TIENE LAS CAJITAS CON LOS GRADOS DE ESTUDIO -->
+      <div class="skills__container--cards">
+        <!-- card universidad -->
         <div>
-          <a class="project__card" tabindex="8" href="#home" target="_blank">
-            <figure class="cards">
-              <img
-                class="cards__img"
-                src="./imágenes/programmer2.svg"
-                alt="ilustración de mujer trabajando con dispositivos móviles"
-              />
-              <figcaption>Portafolio</figcaption>
-            </figure>
-          </a>
+          <div class="skills__card">
+            <h4>UNIVERSIDAD ENRIQUE DÍAZ DE LEÓN</h4>
+            <p>Licenciatura en Ciencias de la Comunicación</p>
+          </div>
         </div>
-        <!-- card generador de memes -->
+        <!-- card generador desafío latam -->
         <div>
-          <a class="project__card" tabindex="9" href="#home" target="_blank">
-            <figure class="cards">
-              <img
-                class="cards__img"
-                src="./imágenes/generador de memes.svg"
-                alt="ilustración de mujer sentada sobre una foto con paisaje de montañas"
-              />
-              <figcaption>Generador de memes</figcaption>
-            </figure>
-          </a>
+          <div class="skills__card">
+            <h4>DESAFÍO LATAM</h4>
+            <p>Curso intensivo en Desarrollo Web Front End</p>
+          </div>
         </div>
-        <!-- card match 3 -->
+        <!-- card experiencia de usuario ux -->
         <div>
-          <a class="project__card" tabindex="10" href="#home" target="_blank">
-            <figure class="cards">
-              <img
-                class="cards__img"
-                src="./imágenes/match 3.svg"
-                alt="ilustración de tres personas tomadas de la mano"
-              />
-              <figcaption>Match 3</figcaption>
-            </figure>
-          </a>
+          <div class="skills__card">
+            <h4>GOOGLE CAREER CERTIFICATES</h4>
+            <p>Curso certificado en Diseño para la Experiencia de Usuario UX</p>
+          </div>
         </div>
       </div>
     </section>
@@ -129,12 +110,16 @@
     <!-- *********************************************************************************** -->
     <!-- SECTION 4 EMPLEO-->
     <section id="work" class="quote">
-      <h2 class="formacion-tittle">Formación profesional</h2>
-      <p class="quote__text">
-        Licenciada en Ciencias de la Comunicación, me he desempeñado la mayor
-        parte del tiempo laboral en la comunicación digital, atención al cliente
-        vía redes sociales y como community manager.
+      <h2 class="formacion-tittle">Trabajo</h2>
+      <p>
+        Me he desempeñado la mayor parte del tiempo laboral en la comunicación
+        digital, atención al cliente vía redes sociales y como community manager
       </p>
+      <ol>
+        <li>Desarrollos Inmobiliarios de Occidente Julio 2021 - Actualidad</li>
+        <li>David Aaron Abogados y Asociados Sept 2018 - Junio 2020</li>
+        <li>Anexa Telecomunicaciones Marzo 2013 - Febrero 2017</li>
+      </ol>
     </section>
 
     <footer>

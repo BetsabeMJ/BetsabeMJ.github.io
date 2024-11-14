@@ -3,9 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 body {
+  /* background-color: #fff9fa; */
   background-color: beige;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.06rem;
 }
 /* ESTILOS GENERALES */
 h1,
@@ -78,6 +80,9 @@ a {
   text-align: center;
   padding: 100px 50px 12px 50px;
 }
+.greeting__container {
+  padding-top: 90px;
+}
 .home__greeting {
   font-size: 1.3rem;
   font-weight: 700;
@@ -109,4 +114,73 @@ h1 {
   padding: 15px 30px;
   font-weight: bold;
   line-height: 5rem;
+}
+/* *********************************************************************************** */
+/* SECTION 2 (DATA) */
+.data-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  /* text-align: center; */
+  padding: 30px 12px 30px;
+}
+.data__tittle {
+  margin-top: 25px;
+  padding-bottom: 20px;
+  color: #35356e;
+}
+.skills__text {
+  padding-bottom: 30px;
+  color: #35356e;
+}
+.container__data {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  padding-block: 30px;
+}
+.container__data--cards {
+  padding: 30px 20px;
+}
+/* *********************************************************************************** */
+/* SECTION 3 (SKILLS) */
+.skills-section {
+  text-align: center;
+  padding: 40px 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(208, 166, 248);
+}
+.skills__tittle {
+  margin-block: 25px;
+  color: #35356e;
+}
+.skills__text {
+  padding-block: 10px;
+  margin-bottom: 20px;
+  color: #35356e;
+}
+.skills__container--cards {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  gap: 20px;
+  /* padding-block: 30px; */
+}
+.skills__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+  border: 1px #67254e solid;
+  border-radius: 7px;
+}
+.skills__card:hover {
+  border-color: #ff2f9f;
+  box-shadow: 0px 0px 5px 0px rgba(255, 47, 159, 1);
 }
