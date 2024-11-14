@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.06rem;
+  background-color: black;
+}
+/* ESTILOS GENERALES */
+h1,
+h2,
+h5 span {
+  font-family: "Poppins", sans-serif;
+}
+h2 {
+  font-size: 1.8rem;
+  font-weight: 800;
+}
+.card {
+  background-color: #ffdefd;
+}
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #cc53c4;
+}
+a:hover {
+  color: black;
+}
+.nav-link {
+  color: #02ff04;
+}
+.nav-link:hover {
+  color: #cc53c4;
+}
+header {
+  background-image: url(../imágenes/bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.d-block {
+  height: 55vh;
+}
+.carousel-section {
+  background-color: #000000;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%2302ff04' fill-opacity='0.15' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+}
+form {
+  background-color: #ffdefd;
+  border-radius: 10px;
+}
+.form-section {
+  align-items: center;
+}
+.btn-submit {
+  background-color: #cc53c4;
+  color: #ffdefd;
+}
+.btn-submit:hover {
+  background-color: black;
+  color: #02ff04;
+}
+footer {
+  color: #02ff04;
+}
+.footer-link:hover {
+  color: #dff6fe;
+  padding-bottom: 50px;
+}
